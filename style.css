@@ -1,0 +1,38 @@
+* {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(165, 237, 250);
+    margin-left: 5px;
+}
+
+h1 {
+    color: navy;
+}
+
+form button {
+    background-color: green;
+    color: white;
+}
+
+form input {
+    border-radius: 30px;
+    background-color: white;
+}
+
+button {
+    background-color: red;
+    color: white;
+    border-radius: 30px;
+    margin: 3px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: darkred;
+    transition: .2s ease-in-out;
+}
+
+form button:hover{
+    background-color: darkgreen;
+    transition: .2s ease-in-out;
+}
+
